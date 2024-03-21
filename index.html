@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Food Market</h1>
+                <button class="menu-btn">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a class="#"onclick="scrollToSection('home')"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                    <li><a href="#" onclick="scrollToSection('favorites')"><i class="fa fa-user-circle-o"></i> Favorites</a></li>
+                    <li><a href="#" onclick="scrollToSection('menu')"><i class="fa fa-server"></i> Menu</a></li>
+                    <li><a href="#" onclick="scrollToSection('contact')"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+                    <li><a href="#"><i class="fa fa-fw fa-user"></i> Login</a></li>
+                    <li><a href="#"><i class="fa fa-volume-control-phone"></i> Help</a></li>
+                    <li><a href="#"><i class="fa fa-fw fa-search"></i> Search</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header id="home">
+    <div class="header-content">
+        <h2>Welcome mga Ka Foodie!</h2>
+        <div class="line"></div>
+        <p>Busy life? No problem! Ka Foodie makes food shopping a breeze. Browse our extensive selection online and have your order delivered straight to your door, or choose convenient curbside pickup. </p>
+        <p> We also offer weekly meal kits with pre-portioned ingredients and delicious recipes, taking the guesswork out of meal planning.Whether you're a seasoned chef, a busy parent, or simply someone who loves good food, Ka FOODIE is here to satisfy your cravings and elevate your culinary experience. Join us on a culinary journey like no other and taste the difference today!</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+</header>
+
+<section class="ads">
+    <div class="ad-item">
+      <img src="IMG/rob.jpg" alt="P100 off Robinsons">
+      <div class="ad-content">
+        <h3>P100 OFF</h3>
+        <p>Robinsons</p>
+        <p>on minimum purchase of P3,000</p>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+    </div>
+  
+        <div class="ad-item">
+          <img src="IMG/rob2.jpg" alt="P50 off S&R">
+          <div class="ad-content">
+            <h3>P50 OFF</h3>
+            <p>S&R</p>
+            <p>on all members' purchases</p>
+            <a href="#" class="shop-btn">Shop Now</a>
+          </div>
+        </div>
+  
+        <div class="ad-item">
+          <img src="IMG/rob3.jpg" alt="Free Delivery Easymart">
+          <div class="ad-content">
+            <h3>Free Delivery</h3>
+            <p>Easymart</p>
+            <p>on orders above P1,000</p>
+            <a href="#" class="shop-btn">Shop Now</a>
+          </div>
+        </div>
+      </section>
+    
+    
+    <main>
+
+        <div class="carousel-content">
+            <h2>Customer Favorites</h2>  
+    
+            <section id ="favorites" class="carousel-container">
+                <div class="carousel-item">
+                    <img src="IMG/p1.png" alt="TSUKE-MEN">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/p7.jpg" alt="Lazy Dumplings">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/p3.png" alt="Cajun Corn">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/p4.png" alt="Onion Rings">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/p5.png" alt="Loco Moco">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/p6.jpg" alt="Spicy Karaage F">
+                </div>
+            </section>
+        </div>
+    </main>
+    
+
+     <div>     
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f2.png" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Shawarma Burger</h3>
+                    <p>A meat dish cooked on a rotating spit, and sliced into thin strips served with a sauce, tomato, pickles, cabbage, onion and hot peppers in a pita.</p>
+                    <p class="price">$12.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f16.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Beef Pasta in Tomato Sauce {Beef Ragu Pasta}</h3>
+                    <p>Ground Beef Pasta Recipe with Tomato Sauce – A quick and easy ground beef recipe! Seared ground beef is mixed through a fragrant tomato sauce speckled with garlic, onion, melted parmesan chee</p>
+                    <p class="price">$11.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <!-- Add other menu items here -->
+       
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f3.png" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Salad Vegetarian</h3>
+                    <p>Assorted sushi rolls with fresh fish and vegetables.</p>
+                    <p class="price">$8.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f1.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Butter Chicken (Murgh Makhani)</h3>
+                    <p> the dreamiest creamiest Indian curry that you can make in the comfort of your own home, even down to the iconic bold orange-red color.</p>
+                    <p class="price">$8.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f7.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Tomato Spinach Chicken Pasta</h3>
+                    <p>Easier than a box meal, this creamy tomato and spinach pasta is also more flavorful and delicious. Perfect for busy weeknights!</p>
+                    <p class="price">$8.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+                
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f4.png" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Steak</h3>
+                    <p>tender, flavorful, juicy, and cooked to perfection</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f5.png" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>European BBQ cuisine</h3>
+                    <p>A meat dish cooked on a rotating spit, and sliced into thin strips served with a sauce, tomato, pickles, cabbage, onion and hot peppers in a pita.</p>
+                    <p class="price">$14.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f6.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Honey Mustard Pork Chops and Potato Skillet</h3>
+                    <p>Honey Mustard Pork Chops Recipe with Potatoes – Best ever melt in your mouth, super delicious pork recipe with potatoes! Juicy boneless pork chops are seared and coated </p>
+                    <p class="price">$7.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f20(1).jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Chicken Alfredo Recipe</h3>
+                    <p>Chicken Alfredo made with crispy Parmesan crusted chicken swaddled in luxuriously creamy garlic Parmesan sauce</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f8.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Shawarma Burger</h3>
+                    <p>A meat dish cooked on a rotating spit, and sliced into thin strips served with a sauce, tomato, pickles, cabbage, onion and hot peppers in a pita.</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f10(1).jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Crockpot Creamy Nachos</h3>
+                    <p>easy to recreate and it's the perfect dump recipe for your slow cooker</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f12.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Spaghetti Bolognese</h3>
+                    <p>Tender Noodles Drenched in Rich Meat Sauce: Spaghetti Perfection</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f13.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Beef stew</h3>
+                    <p>Deep, Rich Flavors: The Ultimate Beef Stew Recipe</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f16.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Beef Ragu Pasta</h3>
+                    <p>Ground Beef Pasta Recipe with Tomato Sauce – A quick and easy ground beef recipe! Seared ground beef is mixed through a fragrant tomato sauce speckled with garlic, onion, melted parmesan chee</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f15.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Pasta with Meat Sauce</h3>
+                    <p>Creamy Burrata Pasta with Meat Sauce</p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="IMG/f17.jpg" alt="Pizza">
+                </div>
+                <div class="menu-item-details">
+                    <h3>Tarragon Chicken</h3>
+                    <p>Fresh tarragon adds a fancy French flair to this skillet chicken meal </p>
+                    <p class="price">$10.99</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+                
+            </div>
+        </section>
+        <!-- Order Form -->
+        <section class="order-form">
+            <h2>Place Your Order</h2>
+            <form action="#">
+                <input type="text" placeholder="Name" placeholder="Enter your full name"required>
+                <input type="email" placeholder="Email" required>
+                <input type="delivery address" placeholder="Enter delivery address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Your Order" required></textarea>
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+
+        <section id="contact" class="footer">
+            <p> Bayugan City, Agusan del sur, Philippines | Phone:09386828015  | Email: Jeweljjmj@gmail.com</p>
+            <p>Copyright @ 2024 Outdoor Aventure</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
